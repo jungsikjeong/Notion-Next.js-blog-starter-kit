@@ -1,14 +1,14 @@
 {
-  "name": "2skydev blog",
-  "short_name": "2skydev blog",
+  "name": "JeongJungSik",
+  "short_name": "JeongJungSik",
   "icons": [
     {
-      "src": "/favicon-128x128.png",
+      "src": "/favicon.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/favicon-192x192.png",
+      "src": "/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
