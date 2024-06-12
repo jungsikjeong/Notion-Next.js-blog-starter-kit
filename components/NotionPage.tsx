@@ -24,9 +24,8 @@ import { loadPrismComponentsWithRetry } from '~/lib/load-prism-components';
 
 import Comments from './Comments';
 // components
-import { Loading } from './Loading';
 // import { Footer } from './Footer';
-import { NotionPageHeader, ToggleThemeButton } from './NotionPageHeader';
+import { NotionPageHeader } from './NotionPageHeader';
 import { Page404 } from './Page404';
 import { PageAside } from './PageAside';
 import { PageHead } from './PageHead';
@@ -249,7 +248,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         rootDomain={site.domain}
         fullPage={!isLiteMode}
         previewImages={!!recordMap.preview_images}
-        showCollectionViewDropdown={false}
+        showCollectionViewDropdown={true}
         showTableOfContents={showTableOfContents}
         minTableOfContentsItems={minTableOfContentsItems}
         defaultPageIcon={config.defaultPageIcon}
