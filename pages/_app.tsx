@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { useEffect } from 'react';
 
 import type { AppProps } from 'next/app';
@@ -13,6 +12,7 @@ import { preferencesStore } from 'stores/settings';
 import { SWRConfig, SWRConfiguration } from 'swr';
 
 import PageLoading from '~/components/PageLoading';
+import Sparkle from '~/components/Sparkle';
 import { bootstrap } from '~/lib/bootstrap-client';
 import { posthogConfig, posthogId } from '~/lib/config';
 import '~/styles/custom/index.scss';
@@ -87,6 +87,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         >
           <Component {...pageProps} />
         </motion.div>
+        <Sparkle />
       </SWRConfig>
     </RecoilRoot>
   );
