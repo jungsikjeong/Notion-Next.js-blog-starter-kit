@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'jeongjungsik',
 
   // open graph metadata (optional)
-  description: 'jeongjungsik - developer blog',
+  description: '정중식 - developer blog',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
