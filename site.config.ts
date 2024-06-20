@@ -25,9 +25,11 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon:
+    'https://jeongjungsik.vercel.app/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252Ff58dd584-7b46-47a4-a941-868db894802c%252F60fc0be8-1255-4946-aea0-0a429a88583c%252F%2525ED%252594%252584%2525EC%252582%2525AC.jpg%3Ftable%3Dblock%26id%3Db13726f8-540e-4b69-8e99-2468bb94c1ad%26cache%3Dv2&w=2048&q=75',
   // 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d2daa37-61d0-45b6-b333-9a2bd0bdc3ee%2Fprofile_%25E1%2584%2580%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AA%25E1%2584%258C%25E1%2585%25B5%25E1%2586%25AF_circle.png?table=block&id=d1e89e9e-42eb-4ebf-9486-ae0374039efc&spaceId=2eb5336b-2edb-42d0-bc6c-95d72d4d1b74&width=250&userId=bef10e95-202b-4b6b-9626-7af866b6f9ba&cache=v2',
-  defaultPageCover: null,
+  defaultPageCover:
+    'https://file.notion.so/f/f/f58dd584-7b46-47a4-a941-868db894802c/ba4d5502-c642-4f1c-859f-cdf4033459a5/IMG_4407.gif?id=b13726f8-540e-4b69-8e99-2468bb94c1ad&table=block&spaceId=f58dd584-7b46-47a4-a941-868db894802c&expirationTimestamp=1718992800000&signature=VcO_Hbj5ypUoE0WULogen9M7RahjNj7c-Wf1LIU6yFo',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
